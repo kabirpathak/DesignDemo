@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        >
+        <item
+            android:checkable="true"
+            android:icon="@drawable/ic_person"
+            android:title="Current Trip"
+            android:id="@+id/currentTrip"
+            />
+    </group>
+    <group
+        android:id="@+id/group2"
+        >
+        <item
+            android:checkable="true"
+            android:icon="@drawable/ic_call"
+            android:title="Calls"
+            android:id="@+id/calls"/>
+    </group>
+    <group
+        android:id="@+id/group3"
+        >
+        <item
+            android:checkable="true"
+            android:icon="@drawable/ic_location"
+            android:title="Location"
+            android:id="@+id/location"/>
+    </group>
+    <group
+        android:id="@+id/group5">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings"
+            android:checkable="true"/>
+    </group>
+    <group
+        android:id="@+id/group4">
+        <item
+            android:checkable="true"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"
+            android:id="@+id/logout"/>
+    </group>
+</menu>

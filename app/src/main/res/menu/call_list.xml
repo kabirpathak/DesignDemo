@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/call1"
+            android:title="Kabir Pathak"
+            android:icon="@drawable/ic_call_black_24dp"
+            />
+    </group>
+    <group
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/call2"
+            android:title="Naval Pangtey"
+            android:icon="@drawable/ic_call_black_24dp"
+            />
+    </group>
+    <group
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/call3"
+            android:title="Ayush Sharma"
+            android:icon="@drawable/ic_call_black_24dp"
+            />
+    </group>
+    <group
+        android:id="@+id/group4">
+        <item
+            android:id="@+id/call4"
+            android:title="Rohit Manral"
+            android:icon="@drawable/ic_call_black_24dp"
+            />
+    </group>
+    <group
+        android:id="@+id/group5">
+        <item
+            android:id="@+id/call5"
+            android:title="Adam Sir"
+            android:icon="@drawable/ic_call_black_24dp"
+            />
+    </group>
+    <group
+        android:id="@+id/group6">
+        <item
+            android:id="@+id/call6"
+            android:title="Pratyush Ranjan"
+            android:icon="@drawable/ic_call_black_24dp"
+            />
+    </group>
+
+</menu>

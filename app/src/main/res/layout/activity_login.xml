@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/reise"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:textStyle="normal"
+        android:backgroundTint="@color/startblue"
+        android:singleLine="true"
+        android:inputType="text"
+        android:layout_marginTop="60dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/startblue"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:id="@+id/buttonLogin"
+        android:onClick="openHome"
+        android:background="@drawable/login_button_background"/>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#123123"
+        android:textSize="15dp"
+        android:background="@null"
+        android:gravity="center"
+        android:onClick="openForgotPassword"
+        android:text="Forgot your password?"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/startblue"
+        android:textSize="15dp"
+        android:background="@null"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:onClick="openRegisterActivity"
+        android:text="Not a member? Register."
+        android:layout_marginTop="30dp"
+        />
+
+
+</LinearLayout>

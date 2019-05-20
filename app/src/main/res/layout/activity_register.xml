@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/reise"/>
+
+    
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Full Name"
+        android:maxLines="1"
+        android:textStyle="normal"
+        android:backgroundTint="@color/startblue"
+        android:singleLine="true"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/startblue"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="date"
+        android:backgroundTint="@color/startblue"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Username"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/startblue"
+        android:layout_marginTop="5dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/startblue"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:onClick="onRegisterClick"
+        android:background="@drawable/login_button_background"/>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#123123"
+        android:textSize="12dp"
+        android:background="@null"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:onClick="openForgotPassword"
+        android:text="Forgot your password?"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/startblue"
+        android:textSize="15dp"
+        android:background="@null"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:onClick="openLoginActivity"
+        android:text="Already a member? Login."
+        android:layout_marginTop="30dp"
+        />
+
+
+</LinearLayout>
